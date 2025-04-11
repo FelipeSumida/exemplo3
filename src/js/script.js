@@ -199,11 +199,19 @@
 
 // declarando uma variavel indefinida
 
-let palpite;
+// let palpite;
 
-const sorteio = Math.floor(Math.random() * 10)+1;
+// const sorteio = Math.floor(Math.random() * 10)+1;
 
-do{
-    palpite = parseInt(prompt("Escolha um número entre 1 e 10"))
-}while(palpite !== sorteio)
-    alert(`Parabéns Você Ganhou o jogo ${palpite}`)
+// do{
+//     palpite = parseInt(prompt("Escolha um número entre 1 e 10"))
+// }while(palpite !== sorteio)
+//     alert(`Parabéns Você Ganhou o jogo ${palpite}`)
+
+// funções
+
+// function saudacao(){
+//     console.log(`Seja Bem-Vindo ${nome}`)
+//     console.log("Seja bem-Vindo", nome)
+// }
+// saudacao("Fiap")
