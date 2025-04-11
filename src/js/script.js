@@ -104,27 +104,27 @@
 
 // if
 
-if(true){
-    console.log("é verdadeiro")
-}
+// if(true){
+//     console.log("é verdadeiro")
+// }
 
-let exemplo=1
-if(exemplo ==1){
-    console.log("esta correto")
-}
+// let exemplo=1
+// if(exemplo ==1){
+//     console.log("esta correto")
+// }
 
-// if/else
+// // if/else
 
-let nome ="fiap";
+// let nome ="fiap";
 
-if(nome =="fiap"){
-    console.log("Nome correto")
-    // document.write("Nome Certo")
-}
-else{
-    console.log("Nome Errado")
-    // document.write("Nome Errado")
-}
+// if(nome =="fiap"){
+//     console.log("Nome correto")
+//     // document.write("Nome Certo")
+// }
+// else{
+//     console.log("Nome Errado")
+//     // document.write("Nome Errado")
+// }
 
 // if encadeado ou aninhado
 
@@ -166,9 +166,44 @@ else{
 // let resultado = valor ==100 ? "Valor Certo": "Valor errado";
 // console.log(resultado);
 
-let media = 5;
-let resultado = media >= 6 ? "Aprovado": "Reprovado";
-console.log(resultado);
+// let media = 5;
+// let resultado = media >= 6 ? "Aprovado": "Reprovado";
+// console.log(resultado);
 
 
- 
+// // ESTRUTURA DE REPETIÇÃO
+
+
+// for(let i = 0; i<=10;i++){
+//     console.log("O valor de i é", i)
+// }
+
+// // while
+// let f = 0;
+
+// while(f < 10){
+//     console.log("O valor de f é", f)
+//     f++;
+// }
+
+// // do while
+
+// let w = 0;
+
+// do{
+//     console.log("do while", w)
+//     w++
+// }while(w <= 20)
+
+// JOGO DE ADVINHAÇÃO
+
+// declarando uma variavel indefinida
+
+let palpite;
+
+const sorteio = Math.floor(Math.random() * 10)+1;
+
+do{
+    palpite = parseInt(prompt("Escolha um número entre 1 e 10"))
+}while(palpite !== sorteio)
+    alert(`Parabéns Você Ganhou o jogo ${palpite}`)
